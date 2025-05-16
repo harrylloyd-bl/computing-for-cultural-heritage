@@ -1,0 +1,9 @@
+name: cfch
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - jupyterlab
+  - pytest
+prefix: C:\Users\HLloyd\AppData\Local\mambaforge\envs\cfch
