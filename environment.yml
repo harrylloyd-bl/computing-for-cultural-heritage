@@ -4,6 +4,9 @@ channels:
 dependencies:
   - python
   - pandas
-  - jupyterlab
+  - openpyxl
+  - nbgitpuller
+  - ipykernel
+  - flit-core>=3.2,<4
   - pytest
 prefix: C:\Users\HLloyd\AppData\Local\mambaforge\envs\cfch
