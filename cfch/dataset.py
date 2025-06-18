@@ -1,3 +1,5 @@
+import re
+
 from cfch.config import RAW_DATA_DIR
 
 import pandas as pd
@@ -137,7 +139,7 @@ def complete_parse(ships_df):
     
     for ship_id, row in ships_df.iterrows():
         ship_info = {
-            "name": row["CorporateName"],
+            "name": row["ShipName"],
             "dates": row["DateRange"],
             "info": "",
             "voyages": [],
