@@ -1,1 +1,1 @@
-from ccfh import config  # noqa: F401
+from cfch import config  # noqa: F401
